@@ -37,11 +37,11 @@ public class JoinController {
 				session.setAttribute("logon", param.get("id"));
 				return "redirect:/";
 			}else {
-				model.addAttribute("err", "계정생성에서 문제가 있었습니다.");
+				model.addAttribute("err", "asdasd");
 				return "join";
 			}
 		} catch (Exception e) {
-			model.addAttribute("err", "계정 생성에서 문제 발생");
+			model.addAttribute("err", "asdasd");
 			return "join";
 		}
 	}
